@@ -5,7 +5,7 @@
 ```console
 blh@wiler:~$ git config credential.helper store #=> save password
 blh@wiler:~$ git config --global user.name "blh wilder"
-blh@wiler:~$ git config --global user.email johndoe@example.com
+blh@wiler:~$ git config --global user.email blh-wilder@sanschaussettes.com
 blh@wiler:~$ git config --list
 ```
 
