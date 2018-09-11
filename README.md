@@ -1,23 +1,23 @@
 # Git Cours
 
-##          ================================================
 ##  					git config
-##          ================================================
+
 ```console
-Iam@wilder:~$ git config credential.helper store #=> save password
+blh@wiler:~$ git config credential.helper store #=> save password
+blh@wiler:~$ git config --global user.name "blh wilder"
+blh@wiler:~$ git config --global user.email blh-wilder@sanschaussettes.com
+blh@wiler:~$ git config --list
 ```
 
-## 			=================================================
 ##						 git revert | reset	
-##      	=================================================
+
 ```console
 Iam@wilder:~$ git log --oneline  			  #=> show commit in a compact way
 Iam@wilder:~$ git revert branch_name commit_id #=> go back from a given commit
+
 ```
 
-##			=================================================
 ##						git branch | merge | -d
-##       	=================================================
 
 ```console
 Iam@wilder:~$ git branch name_branch       #=> create a branch
